@@ -48,7 +48,7 @@ def set_lecture():
     my_set.add(2) #this won't add 2 anymore
     print(my_set) 
 
-    my_list = [1,2,3,4,5,5]
+    my_list = [1,2,3,4,5,5, 4, 8, 8]
     print(set(my_list)) #this will convert the list to a set and will print out unique values
 
 
@@ -61,3 +61,4 @@ def str_concat_lecture():
 
 if __name__ == "__main__":
     str_concat_lecture()
+    set_lecture()
