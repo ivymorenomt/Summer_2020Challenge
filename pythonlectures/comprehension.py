@@ -54,15 +54,15 @@ def list_comprehension():
     new_list = ''.join(char for char in rem_vowel if char not in 'aieou')
     print(new_list)
 
-    # words_not_the = 'the quick brown fox jumps over the lazy dog'
-    # new_words = ''.join(st[:] for st[:] in words_not_the if st is not "the")
-    # print(new_words)
+    words_not_the = "the quick brown fox jumps over the lazy dog"
+    split_words = words_not_the.split()
 
+    new_words = ' '.join(word for word in split_words if word not in "the" )
+    print(split_words[0:])
+    print(new_words)
     wiggle = [72, 26, 79, 70, 20, 68, 43, -71, 71, -2]
     new_even = [x*2 if x % 2 == 0 else x*-1 for x in wiggle ]
-    new_odd = [y*-1 for y in wiggle if y %2 != 0]
     print(new_even)
-    print(new_odd)
 
 
 
