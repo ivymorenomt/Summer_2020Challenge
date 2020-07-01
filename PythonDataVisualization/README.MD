@@ -1,4 +1,4 @@
-## Python for Data Science course in LinkedIn
+## Python for Data Science Essential Training from LinkedIn
 
 It has the following:
 * Why use Python for working with data
@@ -14,3 +14,5 @@ It has the following:
 * Data sourcing via web scraping
 * Introduction to natural language processing
 -- Collaborative analytics with Plotly --
+
+This is to prepare me for Machine Learning algorithms
